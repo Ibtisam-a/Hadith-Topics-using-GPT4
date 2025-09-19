@@ -15,6 +15,7 @@ Users can download the Excel file directly from the repository and open it with 
 * Programmatic access with Python
 The dataset can also be processed using Python. For example, one can use the pandas library to load and explore the data:
 
+```python
 import pandas as pd
 
 - Load a specific sheet (e.g., Sahih Bukhari)
