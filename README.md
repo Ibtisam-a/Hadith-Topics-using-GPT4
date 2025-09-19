@@ -9,9 +9,9 @@
 
 ### The dataset can be accessed in two main ways:
 
-<h3> Direct download 
+<h3> * Direct download  
 Users can download the Excel file directly from the repository and open it with Microsoft Excel, LibreOffice, or Google Sheets. Each sheet corresponds to one Hadith book, making it easy to navigate across collections.
 
-Programmatic access with Python
+* Programmatic access with Python
 
 The dataset can also be processed using Python. For example, one can use the pandas library to load and explore the data:
