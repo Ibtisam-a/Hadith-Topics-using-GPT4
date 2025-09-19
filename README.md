@@ -18,8 +18,8 @@ The dataset can also be processed using Python. For example, one can use the pan
 ```python
 import pandas as pd
 
-- Load a specific sheet (e.g., Sahih Bukhari)
+# Load a specific sheet (e.g., Sahih Bukhari)
 df = pd.read_excel("file-name.xlsx", sheet_name="sheet-name")
 
-- Preview first rows
+# Preview first rows
 print(df.head())
