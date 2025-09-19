@@ -7,7 +7,7 @@
 
 # Usage
 
-<h3> The dataset can be accessed in two main ways: \n
+<h3> The dataset can be accessed in two main ways: <br>
  * Direct download  
 Users can download the Excel file directly from the repository and open it with Microsoft Excel, LibreOffice, or Google Sheets. Each sheet corresponds to one Hadith book, making it easy to navigate across collections.
 
