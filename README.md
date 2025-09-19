@@ -10,8 +10,15 @@
 <h3> The dataset can be accessed in two main ways: <br>
  
 * Direct download  
-Users can download the Excel file directly from the repository and open it with Microsoft Excel, LibreOffice, or Google Sheets. Each sheet corresponds to one Hadith book, making it easy to navigate across collections.
+Users can download the Excel file directly from the repository and open it with Microsoft Excel.
 
 * Programmatic access with Python
-
 The dataset can also be processed using Python. For example, one can use the pandas library to load and explore the data:
+
+import pandas as pd
+
+- Load a specific sheet (e.g., Sahih Bukhari)
+df = pd.read_excel("file-name.xlsx", sheet_name="sheet-name")
+
+- Preview first rows
+print(df.head())
